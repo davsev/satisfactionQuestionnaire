@@ -1,0 +1,15 @@
+day,time,answer,building,floor
+22.02.2018,07:14,3,7,1
+22.02.2018,07:15,2,7,1
+22.02.2018,07:17,2,7,1
+22.02.2018,07:17,2,7,2
+22.02.2018,13:34,3,<br />
+<b>Notice</b>:  Undefined index: building in <b>C:\xampp\htdocs\toilet\index.php</b> on line <b>40</b><br />
+,<br />
+<b>Notice</b>:  Undefined index: floor in <b>C:\xampp\htdocs\toilet\index.php</b> on line <b>41</b><br />
+
+22.02.2018,13:35,3,<br />
+<b>Notice</b>:  Undefined index: building in <b>C:\xampp\htdocs\toilet\index.php</b> on line <b>40</b><br />
+,<br />
+<b>Notice</b>:  Undefined index: floor in <b>C:\xampp\htdocs\toilet\index.php</b> on line <b>41</b><br />
+

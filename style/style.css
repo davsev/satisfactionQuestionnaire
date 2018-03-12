@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+.container{
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.text{
+    font-size: 3.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.images{
+
+}
+
+.image{
+    max-height: 250px;
+    
+
+}
+
+form{
+    display: flex;
+    width: 80%; 
+    justify-content: center;
+}
+
+.clean{
+    background-image: url(../images/happy.png);
+    background-size: cover;
+}
+
+.natural{
+    background-image: url(../images/natural.png);
+    background-size: cover;
+}
+
+.not-clean{
+    background-image: url(../images/sad.png);
+    background-size: cover;
+}
+
+.question{
+    min-width: 250px; 
+    min-height: 250px; 
+    margin: 0 4%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    border-radius: 50%;
+    box-shadow: 0px 9px 0px 0px;
+}
+
+.question:active{
+    box-shadow: 0px 2px 0px 0px;
+    transition: all 0.2s
+}
+
+
+
+.question--p{
+    align-self: flex-end;
+    position: relative;
+    top: 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+input[type=radio]{
+    display: none;
+}
+
+/* 
+@keyframes lookaround{
+    0% { left: 0px;}
+    15% { left: 0px;}
+    18% { left: 10px;}
+    22% { left: 10px;}
+    25% { left: 0px;}
+    50% { left: 0px;}
+    70% { left: 0px;}
+    73% { left: -10px;}
+    77% { left: -10px;}
+    80% { left: 0px;}
+    100% { left: 0px;}
+  }
+  
+  
+  .eyes{
+    width: 30px;
+    height: 40px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: ##403407;
+    animation-name: lookaround;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    position: relative;
+    top: 30px;
+  }
+
+  .face {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    right: 9%;
+    top: 60px;
+} */
